@@ -2,7 +2,7 @@ import time
 
 def countdown(t):
 
-    while t:
+    while (t>0):
 
         mins, secs = divmod(t, 60)
 
